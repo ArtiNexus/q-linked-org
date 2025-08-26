@@ -2,7 +2,7 @@ baseURL = "https://q-linked.org/"
 theme = "hugo-coder"
 languageCode = "zh"
 defaultContentLanguage = "zh"
-title = "Q-LINKED"
+title = "Q-LINKED Genesis"
 defaultContentLanguageInSubdir = false # <--- 新增！确保默认语言URL不带/zh/
 
 [languages.zh]
@@ -78,12 +78,13 @@ defaultContentLanguageInSubdir = false # <--- 新增！确保默认语言URL不�
   # logo = "/images/logo-small.svg"
   # mainSections = ["posts"]
 
-  colorscheme = "auto"
+  colorscheme = "dark"
   hidecolorschemetoggle = false
   showFlags = true
-  customRemoteCSS = [
-    "https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Simplified+Chinese:wght@400;700&display=swap"
-  ]
+  
+  # customRemoteCSS = [
+  #   "https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Simplified+Chinese:wght@400;700&display=swap"
+  # ]
   customCSS = ["css/custom.css"]
   
     [[params.social]]

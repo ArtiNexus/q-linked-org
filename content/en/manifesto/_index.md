@@ -30,6 +30,8 @@ This is our creed, and it is the first and most important promise we make to all
 
 We are not dreamers. The new commercial continent we are building stands upon four unshakeable, axiomatic cornerstones.
 
+{{< figure src="manifesto-banner.jpg">}}
+
 #### **First Creed: Value Atomization**
 
 **Every valuable action must be minted into a unique, immutable digital proof.**

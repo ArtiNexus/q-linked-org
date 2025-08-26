@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/en/posts/</loc>
-    <lastmod>2025-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>http://localhost:1313/en/</loc>
-    <lastmod>2025-08-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
@@ -26,6 +26,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/en/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/en/posts/fifth-post/</loc>
+    <lastmod>2025-08-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/posts/fifth-post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/fifth-post/"
                 />
   </url><url>
     <loc>http://localhost:1313/en/posts/fourth-post/</loc>

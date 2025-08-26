@@ -1,7 +1,7 @@
 /* --- 1. 全局字体定义 (Lora + Noto Serif SC) --- */
-body {
-    font-family: 'Lora', 'Noto Serif SC', serif;
-}
+/*body {
+    font-family: 'Urbanist', 'Noto Sans Simplified Chinese', serif;
+}*/
 
 /* --- Q-Linked 品牌视觉最终定义 (V25.0 - 最终典藏版) --- */
 
@@ -71,44 +71,28 @@ a.title-link:hover {
     text-decoration: underline !important;
 }
 
-/* --- 7. 全局背景图片样式 (含动态遮罩层) --- */
+/* --- 7. 全局双背景图片样式 (动态切换) --- */
 
+/* 默认状态 (深色模式) 的背景 */
 body {
-    background-image: url('/images/background.jpg'); /* 您的背景图片路径 */
-    background-size: cover; /* 覆盖整个屏幕 */
-    background-position: center center; /* 居中显示 */
-    background-attachment: fixed; /* 页面滚动时背景图不滚动 */
-    background-repeat: no-repeat; /* 防止图片平铺 */
-    position: relative; /* 关键：为遮罩层的定位提供基准 */
-    z-index: 0; /* 关键：为遮罩层的定位提供基准 */
+    background-image: url('/images/background-dark.jpg'); /* 深色模式背景图 */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease-in-out; /* 让背景切换更平滑 */
 }
 
-/* 动态遮罩层 */
-body::before {
-    content: ''; /* 伪元素必须有 content 属性 */
-    position: fixed; /* 固定在屏幕上，不随页面滚动 */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: background-color 0.3s ease; /* 让颜色切换有平滑的过渡效果 */
-    z-index: -1; /* 关键：将遮罩层置于 body 内容之下，背景图片之上 */
+/* 当切换到浅色模式时，替换背景图 */
+body.colorscheme-light {
+    background-image: url('/images/background-light.jpg'); /* 浅色模式背景图 */
 }
 
-/* 定义深色模式下的遮罩层颜色 */
-body.colorscheme-dark::before {
-    background-color: rgba(0, 0, 0, 0.5); /* 半透明的黑色 */
-}
-
-/* 定义浅色模式下的遮罩层颜色 */
-body.colorscheme-light::before {
-    background-color: rgba(255, 255, 255, 0.6); /* 半透明的白色 */
-}
-
-/* 将主要内容区域的背景变为透明，以显示出下方的背景和遮罩层 */
+/* 确保主要内容区域透明，以显示背景图 */
 main.wrapper {
     background: transparent !important;
 }
+
 
 /* --- 6. 全局内页二级/三级标题 (H2, H3) 颜色校准 --- */
 
@@ -120,12 +104,12 @@ main.wrapper {
 
 /* --- 8. 全局文章插图样式 --- */
 .main .figure {
-    margin-top: 2rem; /* 图片与上方内容的间距 */
-    margin-bottom: 2rem; /* 图片与下方内容的间距 */
+    margin-top: 3rem; /* 图片与上方内容的间距 */
+    margin-bottom: 3rem; /* 图片与下方内容的间距 */
 }
 
 .main .figure img {
-    border-radius: 8px; /* 为图片添加圆角，更具现代感 */
+    border-radius: 10px; /* 为图片添加圆角，更具现代感 */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* 为图片添加细微的阴影，增加立体感 */
 }
 
@@ -134,4 +118,35 @@ main.wrapper {
     color: var(--secondary-color); /* 图注文字颜色，能自适应深浅色模式 */
     text-align: center; /* 图注居中 */
     margin-top: 0.75rem; /* 图注与图片的间距 */
+}
+
+/* --- 9. 修正标题链接图标颜色 --- */
+.content h2 > a.heading-link::before,
+.content h3 > a.heading-link::before,
+.content h4 > a.heading-link::before {
+    color: #36F034 !important; /* 强制设置为我们的品牌绿色 */
+}
+
+/* --- Uiverse Button: fuzzy-fireant-2 --- */
+.uiverse-button {
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-radius: 9px;
+  background: #05f303; /* <-- 我把它改成了您的品牌绿色，更搭！ */
+  border: none;
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.uiverse-button:hover {
+  box-shadow: 7px 5px 56px -14px #29c30f; /* <-- 同样改成了绿色系阴影 */
+}
+
+.uiverse-button:active {
+  transform: scale(0.97);
+  box-shadow: 7px 5px 56px -10px #29c30f; /* <-- 同样改成了绿色系阴影 */
 }

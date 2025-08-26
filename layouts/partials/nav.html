@@ -12,7 +12,7 @@
       <ul class="navigation-list">
         {{- range .Site.Menus.main }}
           <li class="navigation-item">
-            <a class="navigation-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+            <a class="uiverse-button" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
           </li>
         {{- end }}
         
