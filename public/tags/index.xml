@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Q-LINKED Genesis</title>
-    <link>http://localhost:1320/tags/</link>
+    <link>https://artinexus.github.io/q-linked-org/tags/</link>
     <description>Recent content in Tags on Q-LINKED Genesis</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1320/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://artinexus.github.io/q-linked-org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blockchain</title>
-      <link>http://localhost:1320/tags/blockchain/</link>
+      <link>https://artinexus.github.io/q-linked-org/tags/blockchain/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1320/tags/blockchain/</guid>
+      <guid>https://artinexus.github.io/q-linked-org/tags/blockchain/</guid>
       <description></description>
     </item>
     <item>
       <title>Digital-Civilization</title>
-      <link>http://localhost:1320/tags/digital-civilization/</link>
+      <link>https://artinexus.github.io/q-linked-org/tags/digital-civilization/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1320/tags/digital-civilization/</guid>
+      <guid>https://artinexus.github.io/q-linked-org/tags/digital-civilization/</guid>
       <description></description>
     </item>
     <item>
       <title>Manifesto</title>
-      <link>http://localhost:1320/tags/manifesto/</link>
+      <link>https://artinexus.github.io/q-linked-org/tags/manifesto/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1320/tags/manifesto/</guid>
+      <guid>https://artinexus.github.io/q-linked-org/tags/manifesto/</guid>
       <description></description>
     </item>
     <item>
       <title>Q-Linked</title>
-      <link>http://localhost:1320/tags/q-linked/</link>
+      <link>https://artinexus.github.io/q-linked-org/tags/q-linked/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1320/tags/q-linked/</guid>
+      <guid>https://artinexus.github.io/q-linked-org/tags/q-linked/</guid>
       <description></description>
     </item>
     <item>
       <title>Trust</title>
-      <link>http://localhost:1320/tags/trust/</link>
+      <link>https://artinexus.github.io/q-linked-org/tags/trust/</link>
       <pubDate>Fri, 01 Aug 2025 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1320/tags/trust/</guid>
+      <guid>https://artinexus.github.io/q-linked-org/tags/trust/</guid>
       <description></description>
     </item>
   </channel>

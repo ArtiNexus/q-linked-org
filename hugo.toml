@@ -1,4 +1,4 @@
-baseURL = "https://q-linked.org/"
+baseURL = "https://artinexus.github.io/q-linked-org/"
 theme = "hugo-coder"
 languageCode = "zh"
 defaultContentLanguage = "zh"
