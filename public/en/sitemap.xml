@@ -2,95 +2,95 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://artinexus.github.io/q-linked-org/en/posts/</loc>
+    <loc>https://q-linked.org/en/posts/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://artinexus.github.io/q-linked-org/posts/"
+                href="https://q-linked.org/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://artinexus.github.io/q-linked-org/en/posts/"
+                href="https://q-linked.org/en/posts/"
                 />
   </url><url>
-    <loc>https://artinexus.github.io/q-linked-org/en/</loc>
+    <loc>https://q-linked.org/en/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://artinexus.github.io/q-linked-org/"
+                href="https://q-linked.org/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://artinexus.github.io/q-linked-org/en/"
+                href="https://q-linked.org/en/"
                 />
   </url><url>
-    <loc>https://artinexus.github.io/q-linked-org/en/posts/fifth-post/</loc>
+    <loc>https://q-linked.org/en/posts/fifth-post/</loc>
     <lastmod>2025-08-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://artinexus.github.io/q-linked-org/en/posts/fourth-post/</loc>
+    <loc>https://q-linked.org/en/posts/fourth-post/</loc>
     <lastmod>2025-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://artinexus.github.io/q-linked-org/en/posts/third-post/</loc>
+    <loc>https://q-linked.org/en/posts/third-post/</loc>
     <lastmod>2025-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://artinexus.github.io/q-linked-org/en/posts/second-post/</loc>
+    <loc>https://q-linked.org/en/posts/second-post/</loc>
     <lastmod>2025-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://artinexus.github.io/q-linked-org/en/posts/first-post/</loc>
+    <loc>https://q-linked.org/en/posts/first-post/</loc>
     <lastmod>2025-08-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://artinexus.github.io/q-linked-org/en/about/</loc>
+    <loc>https://q-linked.org/en/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://artinexus.github.io/q-linked-org/about/"
+                href="https://q-linked.org/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://artinexus.github.io/q-linked-org/en/about/"
+                href="https://q-linked.org/en/about/"
                 />
   </url><url>
-    <loc>https://artinexus.github.io/q-linked-org/en/categories/</loc>
+    <loc>https://q-linked.org/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://artinexus.github.io/q-linked-org/categories/"
+                href="https://q-linked.org/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://artinexus.github.io/q-linked-org/en/categories/"
+                href="https://q-linked.org/en/categories/"
                 />
   </url><url>
-    <loc>https://artinexus.github.io/q-linked-org/en/contact/</loc>
+    <loc>https://q-linked.org/en/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://artinexus.github.io/q-linked-org/contact/"
+                href="https://q-linked.org/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://artinexus.github.io/q-linked-org/en/contact/"
+                href="https://q-linked.org/en/contact/"
                 />
   </url><url>
-    <loc>https://artinexus.github.io/q-linked-org/en/tags/</loc>
+    <loc>https://q-linked.org/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://artinexus.github.io/q-linked-org/tags/"
+                href="https://q-linked.org/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://artinexus.github.io/q-linked-org/en/tags/"
+                href="https://q-linked.org/en/tags/"
                 />
   </url><url>
-    <loc>https://artinexus.github.io/q-linked-org/en/manifesto/</loc>
+    <loc>https://q-linked.org/en/manifesto/</loc>
   </url>
 </urlset>
