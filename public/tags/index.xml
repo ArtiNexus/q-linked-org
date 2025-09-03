@@ -2,10 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Q-LINKED Genesis</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://localhost:1320/tags/</link>
     <description>Recent content in Tags on Q-LINKED Genesis</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1320/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blockchain</title>
+      <link>http://localhost:1320/tags/blockchain/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1320/tags/blockchain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital-Civilization</title>
+      <link>http://localhost:1320/tags/digital-civilization/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1320/tags/digital-civilization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Manifesto</title>
+      <link>http://localhost:1320/tags/manifesto/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1320/tags/manifesto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Q-Linked</title>
+      <link>http://localhost:1320/tags/q-linked/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1320/tags/q-linked/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trust</title>
+      <link>http://localhost:1320/tags/trust/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1320/tags/trust/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

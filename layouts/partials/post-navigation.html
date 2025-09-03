@@ -1,0 +1,27 @@
+<div class="post-navigation">
+  <div class="nav-container">
+    {{ if .Prev }}
+    <a href="{{ .Prev.Permalink }}" class="nav-button prev-button uiverse-button" title="上一篇">
+      <i class="fa-solid fa-arrow-left fa-fw" aria-hidden="true"></i>
+    </a>
+    {{ else }}
+    <span class="nav-button prev-button uiverse-button disabled" title="没有上一篇文章">
+      <i class="fa-solid fa-arrow-left fa-fw" aria-hidden="true"></i>
+    </span>
+    {{ end }}
+    
+    <a href="{{ "/posts/" | relLangURL }}" class="nav-button list-button uiverse-button" title="文章列表">
+      <i class="fa-solid fa-book fa-fw" aria-hidden="true"></i>
+    </a>
+    
+    {{ if .Next }}
+    <a href="{{ .Next.Permalink }}" class="nav-button next-button uiverse-button" title="下一篇">
+      <i class="fa-solid fa-arrow-right fa-fw" aria-hidden="true"></i>
+    </a>
+    {{ else }}
+    <span class="nav-button next-button uiverse-button disabled" title="没有下一篇文章">
+      <i class="fa-solid fa-arrow-right fa-fw" aria-hidden="true"></i>
+    </span>
+    {{ end }}
+  </div>
+</div>

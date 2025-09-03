@@ -17,16 +17,7 @@
         {{- end }}
         
         {{ if .Site.IsMultiLingual }}
-          <li class="navigation-item menu-separator">
-            <span>|</span>
-          </li>
-          {{ range .Site.Languages }}
-            {{ if not (eq .Lang $.Site.Language.Lang) }}
-              <li class="navigation-item">
-                <a href="{{ .RelPermalink }}">{{ .Language.Params.flag | safeHTML }}</a>
-              </li>
-            {{ end }}
-          {{ end }}
+          <!-- 语言切换功能已暂时隐藏 -->
         {{ end }}
       </ul>
     {{ end }}

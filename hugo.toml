@@ -13,26 +13,20 @@ defaultContentLanguageInSubdir = false # <--- 新增！确保默认语言URL不�
     flag = "🇨🇳" # <--- 将 "cn" 修改为中国国旗 Emoji
     author = "Q-Linked 创世" # <--- 中文作者名
     info = "为价值创造者，重建数字文明" # <--- 中文简介
+
   [[languages.zh.menu.main]]
-    name = "宣言"
-    url = "/manifesto/"
-    weight = 1
-  [[languages.zh.menu.main]]
-    name = "博客" # 新增
+    name = "BLOG" # 修改为英文大写
     url = "/posts/"   # 新增
     weight = 2   # 新增
   [[languages.zh.menu.main]]
-    name = "关于" # 新增
+    name = "ABOUT" # 修改为英文大写
     url = "/about/"  # 新增
     weight = 3   # 新增
   [[languages.zh.menu.main]]
-    name = "联系" # 新增
+    name = "CONTACT" # 修改为英文大写
     url = "/contact/"# 新增
     weight = 4   # 新增
-  [[languages.zh.menu.main]]
-    name = "GitHub"
-    url = "https://github.com/ArtiNexus/q-linked-protocol"
-    weight = 5 # 注意 weight 顺延
+
 
   [languages.en]
   languageName = "English"
@@ -42,10 +36,7 @@ defaultContentLanguageInSubdir = false # <--- 新增！确保默认语言URL不�
     flag = "🇺🇸" # <--- 将 "us" 修改为美国国旗 Emoji
     author = "Q-Linked Genesis" # <--- 新增！英文作者名
     info = "Rebuilding Digital Civilization for the Value Creators" # <--- 新增！英文简介
-  [[languages.en.menu.main]]
-    name = "Manifesto"
-    url = "/manifesto/"
-    weight = 1
+
   [[languages.en.menu.main]]
     name = "Blog"    # 新增
     url = "/posts/"      # 新增
@@ -58,10 +49,7 @@ defaultContentLanguageInSubdir = false # <--- 新增！确保默认语言URL不�
     name = "Contact"  # 新增
     url = "/contact/"   # 新增
     weight = 4      # 新增
-  [[languages.en.menu.main]]
-    name = "GitHub"
-    url = "https://github.com/ArtiNexus/q-linked-protocol"
-    weight = 5 # 注意 weight 顺延
+
 
 [params]
   author = "Q-Linked 创世"
@@ -86,6 +74,7 @@ defaultContentLanguageInSubdir = false # <--- 新增！确保默认语言URL不�
   #   "https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400..700;1,400..700&family=Noto+Sans+Simplified+Chinese:wght@400;700&display=swap"
   # ]
   customCSS = ["css/custom.css"]
+  customJS = ["js/back-to-top.js"]
   
     [[params.social]]
     name = "GitHub"

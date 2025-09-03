@@ -29,6 +29,17 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function setTheme(theme) {
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    if (!darkModeToggle) return;
+    const icon = darkModeToggle.querySelector('i');
+    if (theme === 'dark') {
+    icon.classList.remove('fa-sun');
+    icon.classList.add('fa-moon');
+} else {
+    icon.classList.remove('fa-moon');
+    icon.classList.add('fa-sun');
+}
+
     body.classList.remove('colorscheme-auto');
     let inverse = theme === 'dark' ? 'light' : 'dark';
     body.classList.remove('colorscheme-' + inverse);
