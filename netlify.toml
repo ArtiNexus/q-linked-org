@@ -1,0 +1,14 @@
+[build]
+publish = "public"
+command = "hugo --gc --minify"
+
+[build.environment]
+HUGO_VERSION = "0.148.2"
+
+# 部署预览配置
+[context.deploy-preview]
+command = "hugo --gc --minify --buildFuture --buildDrafts -b $DEPLOY_PRIME_URL"
+
+# 分支部署配置
+[context.branch-deploy]
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
